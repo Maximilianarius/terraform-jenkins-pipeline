@@ -3,7 +3,7 @@ terraform {
   backend "s3" {
     bucket = "terraform-hold-state"
     key    = "s3/jenkins/terraform.tfstate"
-    region = "us-east-2"
+    region = "us-east-1"
   }
 }
 
